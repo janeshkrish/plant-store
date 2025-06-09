@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+  "build": "vite build",
+  "preview": "vite preview",
+  "vercel-build": "npm rebuild esbuild && vite build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
